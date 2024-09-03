@@ -15,6 +15,10 @@ body {
   color: white;
   filter: drop-shadow(5px 5px 10px #707070);
 }
+.contentIsland {
+  background-color: #d0b8a8;
+  filter: drop-shadow(5px 5px 10px #707070);
+}
 
 .img-thumbnail {
   background-color: #d0b8a8;
