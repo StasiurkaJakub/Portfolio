@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Oswald:wght@200..700&family=SUSE:wght@100..800&display=swap");
+
+body {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  margin: 0;
+  background-color: #f8ede3;
+  height: 10000px;
+}
+
+[class*="col"] {
+  padding: 1rem;
+  color: white;
+  filter: drop-shadow(5px 5px 10px #707070);
+}
+
+.img-thumbnail {
+  background-color: #d0b8a8;
+}
+.card {
+  transform: scale(1);
+  transition: 800ms;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.077), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card:hover {
+  transform: scale(1.15);
+  transition: 150ms;
+}
+
+section {
+  margin-top: 18%;
+}
+
+#navbar {
+  transition: 0.7s;
+}
+
+.navbar-brand,
+.navbar-toggler {
+  padding: 10px;
+}
