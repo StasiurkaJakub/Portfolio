@@ -45,6 +45,19 @@
         </div>
       </div>
     </nav>
+
+    <img id="myimg" src="" alt="Dynamic Image" />
+
+    <script>
+      fetch("http://localhost:3000/get-image-url")
+        .then((response) => response.json())
+        .then((data) => {
+          document.getElementById("myimg").src = data.imageUrl;
+          console.log("hello");
+        })
+        .catch((error) => console.error("Error fetching image URL:", error));
+    </script>
+
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/scrollScript.js"></script>
   </body>

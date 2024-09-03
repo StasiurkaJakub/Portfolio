@@ -4,8 +4,8 @@
 
       function scrollFunction() {
         if (
-          document.body.scrollTop > 80 ||
-          document.documentElement.scrollTop > 80
+          document.body.scrollTop > 70 ||
+          document.documentElement.scrollTop > 70
         ) {
           document.getElementById("navbar").style.margin = "30px";
         } else {
